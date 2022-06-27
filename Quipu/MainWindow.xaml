@@ -1,0 +1,18 @@
+﻿<Window x:Class="Quipu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quipu"
+        mc:Ignorable="d"
+        Title="Quipu" Height="450" Width="800">
+    <Grid>
+        <Button Name="btn_load" Content="Открыть список url" HorizontalAlignment="Left" Margin="301,56,0,0" VerticalAlignment="Top" Width="130" Click="btn_load_Click" RenderTransformOrigin="0.867,0.583" Height="30"/>
+        <ListBox Name="listBox1" HorizontalAlignment="Left" Height="157" Margin="301,131,0,0" VerticalAlignment="Top" Width="282"/>
+        <Button Name="btn_open" Content="Перейти по url" HorizontalAlignment="Left" Margin="122,131,0,0" VerticalAlignment="Top" Width="135" Click="Button_Click"/>
+        <Button Name="btn_fin"  Content="Подсчет тегов a" HorizontalAlignment="Left" Margin="122,245,0,0" VerticalAlignment="Top" Width="135" Click="btn_fin_Click"/>
+        <Button Name="X" Content="Прервывание процесса" HorizontalAlignment="Left" Margin="122,269,0,0" VerticalAlignment="Top" Width="135" Click="X_Click"/>
+        <ListBox Name="listBox2" HorizontalAlignment="Left" Height="157" Margin="616,131,0,0" VerticalAlignment="Top" Width="146" />
+
+    </Grid>
+</Window>
